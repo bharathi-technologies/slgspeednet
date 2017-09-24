@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<title>SLG SpeedNet - High Speed Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+<!-- PRELOADER -->
+<img id="preloader" src="images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<img src="images/SLG_Logo_Small.png" alt="" />
+						<a href="index.html" ><span class="b1">s</span><span class="b2">l</span><span class="b3">g</span><span class="b4">speed</span><span class="b5">net</span></a>
+					</div><!-- //LOGO -->
+					
+					<!-- SEARCH FORM -->
+					<!-- <div id="search-form" class="pull-right">
+						<form method="get" action="#">
+							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
+						</form>
+					</div>  -->
+					<!-- SEARCH FORM -->
+					
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="index.html" >HOME</a></li>
+								
+								
+								<li class="sub-menu">
+									<a href="javascript:void(0);" >BROADBAND</a>
+									<ul>
+										<li><a href="features.html#features" >FEATURES</a></li>
+										<li><a href="features.html#homeplans" >HOME PLANS</a></li>
+										<li><a href="features.html#sme" >SME PLANS</a></li>
+										<li><a href="features.html#corporate" >COPORATE PLANS & LEASED LINES</a></li>
+										<li><a href="features.html#availability" >AVAILABILITY</a></li>
+									</ul>
+								</li>
+								<!-- <li class="scroll_btn"><a href="#news" >CUSTOMERS</a></li> -->
+								
+								
+								<li class="sub-menu">
+									<a href="javascript:void(0);" >KNOW US</a>
+									<ul>
+										<li class="scroll_btn"><a href="index.html#about" >ABOUT US</a></li>
+										<li class="scroll_btn"><a href="index.html#projects" >SERVICES</a></li>
+										<li class="scroll_btn"><a href="index.html#news" >WHY US?</a></li>
+										<li class="scroll_btn last"><a href="index.html#contacts" >GET IN TOUCH</a></li>
+										
+									</ul>
+									
+								<li class="sub-menu">
+									<a href="javascript:void(0);" >CUSTOMERS</a>
+									<ul>
+										<li><a href="http://usr1.vainavi.net" target="_blank" >MY ACCOUNT</a></li>
+										<li><a href="#" >ONLINE PAYMENT</a></li>
+										<li><a href="#" >FAQs</a></li>
+
+										
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+		
+		
+		<!-- PROJECTS -->
+		<section id="features" class="padbot20">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<br>
+				<br>
+				<h2><b>Salient </b>Features</h2>
+			</div><!-- //CONTAINER -->
+				
+			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+				<!-- PROJECTS SLIDER -->
+				<div class="owl-demo owl-carousel projects_slider">
+							
+					<!-- work1 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/8.jpg" alt="" />
+								<a class="zoom" href="images/works/8.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+						</div>
+					</div><!-- //work1 -->
+					
+					<!-- work2 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/9.jpg" alt="" />
+								<a class="zoom" href="images/works/9.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+						</div>
+					</div><!-- //work2 -->
+					
+					<!-- work3 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/10.png" alt="" />
+								<a class="zoom" href="images/works/10.png" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+						</div>
+					</div><!-- //work3 -->
+					
+					<!-- work4 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/11.jpg" alt="" />
+								<a class="zoom" href="images/works/11.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+						</div>
+					</div><!-- //work4 -->
+					
+					<!-- work5 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/12.jpg" alt="" />
+								<a class="zoom" href="images/works/12.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+						</div>
+					</div><!-- //work5 -->
+					
+					<!-- work6 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/14.png" alt="" />
+								<a class="zoom" href="images/works/13.png" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+						</div>
+					</div><!-- //work6 -->
+				
+				</div><!-- //PROJECTS SLIDER -->
+			</div>
+			
+		</section><!-- //PROJECTS -->
+		
+		<section id="aboutus">
+			
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+				
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Easy</b> Installation in 3 Steps</p>
+								<p><b>Storage</b> and Convenience</p>
+								<p><b>Availability and </b> Uptime Monitoring</p>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Technical Support </b> Availability</p>
+								<p><b>Best customer </b> service</p>
+								<p><b>Professional </b> Grade Firewall</p>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>WiFi </b> Hotspots</p>
+								<p><b>Safety and  </b> Security</p>
+								<p><b>Reliable </b> Network</p>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Uncapped Internet </b>Bandwidth </p>
+								<p><b>Value</b> for Your Money</p>
+								<p><b>How–to </b> demos</p>								
+							</a>
+						</div>
+						
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+			
+		</section>
+			
+		<!-- ABOUT -->
+
+		<section id="homeplans">
+			<!-- MULTI PURPOSE -->
+			<div class="purpose_block">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+					
+					<!-- ROW -->
+					<div class="row">					
+						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="10" data-animated="fadeInLeft">
+							<h2><b>Home</b> Plans</h2>
+							<p>Join our ever growing customer base and get your special offer today.</p>
+							<p>High Speed Internet Service by SLG SpeedNet gives you reliably fast speeds with the most coverage in your home so everyone can get online and connect all of their devices at the same time.. </p>				
+						</div>						
+			<div class="col-md-6 col-sm-6 col-xs-12 text-left">
+			<div class="panel-group" id="accordion1">
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">768Kbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion1_1" class="panel-collapse collapse in">
+		            <div class="panel-body">
+		              <p> ₹399.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">1Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion1_2" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹599.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_3">2Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion1_3" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹799.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_4">3Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion1_4" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_5">4Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion1_5" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹1249.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_6">5Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion1_6" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹1599.</p>
+		            </div>
+		          </div>
+	          </div>		  
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_7">6Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion1_7" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹1999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_8">8Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion1_8" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹2499.</p>
+		            </div>
+		          </div>
+	          </div>
+			<div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_9">10Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion1_9" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹2999.</p>
+		            </div>
+		          </div>
+	          </div>
+
+			</div>
+			</div>
+						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="10" data-animated="fadeInLeft">
+							<p>*Home unlimited plans have an FUP limit of 100GB.</p>
+						</div>
+
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //MULTI PURPOSE -->
+			<br>
+		</section><!-- //ABOUT -->
+		
+		<!-- NEWS -->
+		<section id="sme">
+		
+			<!-- CONTAINER -->
+		<div class="container">
+				<h2><b>SME</b> Plans</h2>
+				
+		<div class="row">
+    	<div class="col-md-6 col-sm-6 col-xs-12 text-left">
+    	  <img src="images/whyus.jpg" alt="Why to choose us" class="img-responsive">
+    	</div>
+    		<div class="col-md-6 col-sm-6 col-xs-12 text-left">
+			<div class="panel-group" id="accordion2">
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_0">1Mbps 100GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion2_0" class="panel-collapse collapse in">
+		            <div class="panel-body">
+		              <p> ₹999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_1">2Mbps 100GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion2_1" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹1199.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_2">3Mbps 250GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion2_2" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹1599.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_3">4Mbps 250GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion2_3" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹1999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_4">5Mbps 250GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion2_4" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹2499.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_5">6Mbps 250GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion2_5" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹2999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_6">8Mbps 250GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion2_6" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹3999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_7">10Mbps 250GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion2_7" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹4999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  
+			</div>
+			</div>	
+			</div>
+			
+			<br>
+				
+			</div><!-- //CONTAINER -->
+
+		</section><!-- //NEWS -->
+		
+		<!-- PROJECTS -->
+		<section id="corporate" class="padbot20">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>Corporate</b> Broadband Plans</h2>
+				
+			<div class="col-md-6 col-sm-6 col-xs-12 text-left">
+			<div class="panel-group" id="accordion3">
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_0">3Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_0" class="panel-collapse collapse in">
+		            <div class="panel-body">
+		              <p> ₹3999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_1">4Mbps 500GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_1" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹2999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_2">4Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_2" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹4999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_3">5Mbps 500GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_3" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹3999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_4">5Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_4" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹5999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_5">6Mbps 500GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_5" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹4499.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_6">6Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_6" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹6999.</p>
+		            </div>
+		          </div>
+	          </div>
+			  <div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_7">8Mbps 500GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_7" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹4999.</p>
+		            </div>
+		          </div>
+	          </div>
+			<div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_8">8Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_8" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹8999.</p>
+		            </div>
+		          </div>
+	          </div>
+			<div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_9">10Mbps 500GB</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_9" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹5999.</p>
+		            </div>
+		          </div>
+	          </div>
+			<div class="panel panel-default">
+		          <div class="panel-heading">
+			          <h5 class="panel-title">
+			          	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_10">10Mbps Unlimited</a>
+			          </h5>
+		          </div>
+		          <div id="accordion3_10" class="panel-collapse collapse">
+		            <div class="panel-body">
+		              <p> ₹11999.</p>
+		            </div>
+		          </div>
+	          </div>
+
+		  <h2><b>Corporate</b> Leased Lines</h2>
+				<div class="blog_post_content">
+				<p>Join our ever growing customer base and get your special offer today.</p>
+				<p>Internet Leased Lines Service by SLG SpeedNet gives you reliably fast speeds with the most coverage so small and mid-sized companies make their businesses more productive.</p>
+				<p>Bandwidth from 1Mbps to 1Gbps can be provided as per requirements. Banwidth on demand. Call our sales team to get the best solution for your need.</p>
+			Internet Leased Line
+SLG 		SpeedNet's Internet Leased Line ensures that your business maintains faster data output at low latencies. It connects you to the outside world and gives your organisation secure data connectivity. Be it for hosting corporate web portals, email servers, video conferencing, VoIP or accessing the internet, your organisation will benefit from SLG SpeedNet’s Internet Leased Line. 
+				</div>
+			</div><!-- //CONTAINER -->
+			
+		
+
+		</section><!-- //PROJECTS -->
+		
+		
+	</div><!-- //PAGE -->
+	
+	<!-- CONTACTS -->
+	<section id="contacts">
+	</section><!-- //CONTACTS -->
+	
+	<!-- FOOTER -->
+	<footer>
+			
+		<!-- CONTAINER -->
+		<div class="container">
+			
+			<!-- ROW -->
+			<div class="row" data-appear-top-offset="-140" data-animated="fadeInUp">
+				
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
+					<h4><b>Contact </b> Address</h4>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_content_small">
+							<a class="title">Head Office</a>
+							<ul class="post_item_inf_small">
+								<li>SLG SpeedNet, Main Road, Haripalem, Atchutapuram MD, Visakhapatnam Dist, Andhra Pradesh. 531033</li>
+							</ul>
+						</div>
+					</div>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_content_small">
+							<a class="title" >Branch Office</a>
+							<ul class="post_item_inf_small">
+								<li>SLG SpeedNet, 1-118, 2nd Floor, Opp.Atchuta College, Atchutapuram, Visakhapatnam Dist, Andhra Pradesh. 531011</li>
+							</ul>
+						</div>
+					</div>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_content_small">
+							<a class="title" >E-Mail</a>
+							<ul class="post_item_inf_small">
+								<li>info@slgspeed.net</li>
+							</ul>
+							<br>
+							<a class="title" >Call</a>
+							<ul class="post_item_inf_small">
+								<li>9866356465, 9949454536, 9963069080</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+					<h4><b>About</b> us</h4>
+					<p>We value people over profits, quality over quantity, and keeping it real. As such, we deliver an unmatched working relationship with our clients.</p>
+					<ul class="social">
+						<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="map_show fa fa-map-marker"></i></a></li>
+					</ul>
+				</div>
+				
+				<div class="respond_clear"></div>				
+				<div class="col-lg-4 col-md-4 padbot30">
+					<h4><b>Contacts</b> Us</h4>
+					
+					<!-- CONTACT FORM -->
+					<div class="span9 contact_form">
+						<div id="note"></div>
+						<div id="fields">
+							<form id="contact-form-face" class="clearfix" action="#">
+								<input type="text" name="name" value="Name" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
+								<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';">Message</textarea>
+								<input class="contact_btn" type="submit" value="Send message" />
+							</form>
+						</div>
+					</div><!-- //CONTACT FORM -->
+				</div>
+			</div><!-- //ROW -->
+			<hr>
+			<div class="row" data-appear-top-offset="-50" data-animated="fadeInUp">
+				<div class="col-lg-8 col-md-2 col-sm-4 padbot20">
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_content_small">
+							<ul class="post_item_inf_small">
+								<span class="mk-footer-copyright"><a style="color:white" href="terms-of-use.html">Terms of Use</a> | <a style="color:white" href="privacy-policy.html">Privacy Policy</a>
+								&nbsp;&nbsp;
+								©2015 SLG SpeedNet Group. All Rights Reserved.</span>
+							</ul>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div><!-- //CONTAINER -->
+	</footer><!-- //FOOTER -->
+	
+	
+	<!-- MAP -->
+	<div id="map">
+		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d157312.69161370886!2d83.02239352421381!3d17.55769325273068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1439145803709" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div><!-- //MAP -->
+
+</div>
+</body>
+</html>
